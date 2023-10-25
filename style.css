@@ -1,0 +1,44 @@
+:root{
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+  
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.logo{
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
