@@ -13,7 +13,7 @@ function searchMovies(e){
 
 function buscar(){
     const {nombre} = parametros;
-    const url = `http://www.omdbapi.com/?i=tt3896198&apikey=e79742db&s=${nombre}`;
+    const url = `https://www.omdbapi.com/?i=tt3896198&apikey=e79742db&s=${nombre}`;
 
     fetch(url)
         .then((respuesta)=>{
